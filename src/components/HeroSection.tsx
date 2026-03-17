@@ -15,7 +15,7 @@ const HeroSection = () => {
         {/* Vertical fade: image fades out towards the bottom */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background z-10" />
         <img
-          src="/images/hero.png"
+          src={`${import.meta.env.BASE_URL}images/hero.png`}
           alt=""
           className="w-full object-contain object-bottom"
         />
@@ -29,7 +29,7 @@ const HeroSection = () => {
         className="lg:hidden absolute inset-0 pointer-events-none select-none z-0"
       >
         <img
-          src="/images/hero.png"
+          src={`${import.meta.env.BASE_URL}images/hero.png`}
           alt=""
           className="absolute bottom-0 left-3/4 -translate-x-1/2 h-[55vh] w-auto max-w-none opacity-50"
         />

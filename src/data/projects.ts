@@ -24,7 +24,7 @@ export const projects: Project[] = [
   slug: "scrum-project-webshop",
   title: "Scrum Project Webshop",
   showImageInCard: false,
-  image: "/images/scrum.png",
+  image: `${import.meta.env.BASE_URL}images/scrum.png`,
   description: "A webshop built in vanilla PHP using an MVC architecture during a Scrum group project.",
   longDescription: [
     "This project was developed as part of my Full Stack Developer training, where we worked in a team following the Scrum methodology.",
@@ -65,7 +65,7 @@ export const projects: Project[] = [
   featured: true,
   url: "https://dartszone-frontend.up.railway.app",
   github: "https://github.com/thomaslaeremans/dartszone",
-  image: "/images/DartsZone_mockup.png",
+  image: `${import.meta.env.BASE_URL}images/DartsZone_mockup.png`,
   features: [
     "Tournament creation and bracket management",
     "Real-time score tracking during games",
@@ -96,7 +96,7 @@ export const projects: Project[] = [
   {
     slug: "yahtzee-game",
     title: "Yahtzee Game",
-    image: "/images/Yathzee.png",
+    image: `${import.meta.env.BASE_URL}images/Yathzee.png`,
     showImageInCard: false,
     description: "A modern take on the classic dice game created with JavaScript.",
     longDescription: [
