@@ -33,7 +33,7 @@ export const projects: Project[] = [
   ],
   tags: ["PHP", "MVC", "OOP", "Scrum", "Tailwind CSS"],
   github: "https://github.com/thomaslaeremans/Scrum",
-  featured: true,
+  featured: false,
   features: [
     "Fully custom MVC architecture in vanilla PHP",
     "Object-oriented code with clear separation of concerns",
@@ -71,6 +71,29 @@ export const projects: Project[] = [
     "Real-time score tracking during games",
     "Player statistics and match history",
     "Responsive design for mobile scorekeeping",
+  ],
+},
+{
+  slug: "lisa-moments-website",
+  title: "Lisa Moments Portfolio Website",
+  description:
+    "A modern portfolio website for a hobby photographer, built with React and Contentful for easy content management.",
+  longDescription: [
+    "Lisa Moments is a visual portfolio website designed for a hobby photographer who wants to present her work in a professional and user-friendly way. The website focuses on photography, simplicity, and a clean, modern aesthetic.",
+    "All content — including photo series, projects, text, and categories — is managed through Contentful. This allows the photographer to easily add new shoots, update descriptions, or adjust existing content without any technical knowledge.",
+    "The frontend is built with React and Tailwind CSS, ensuring a fast, responsive, and visually consistent experience. Thanks to the integration with Contentful, all pages are dynamically generated, keeping the workflow flexible and scalable.",
+    "The website is designed mobile-first, ensuring that visitors enjoy an optimal viewing experience on any device and that the photos truly stand out.",
+  ],
+  tags: ["React", "Contentful", "Tailwind CSS", "Headless CMS"],
+  featured: true,
+  url: "https://bright-tiramisu-6b4ef9.netlify.app/",
+  github: "https://github.com/thomaslaeremans/Lisa-moments",
+  image: `${import.meta.env.BASE_URL}images/lisa_moments.png`,
+  features: [
+    "Content management via Contentful (photos, text, categories)",
+    "Fully responsive portfolio layout",
+    "Modern UI with a photography-focused design",
+    "Dynamic pages powered by CMS content",
   ],
 },
   {
