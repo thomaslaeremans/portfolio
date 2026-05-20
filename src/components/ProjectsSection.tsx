@@ -43,7 +43,7 @@ const ProjectCard = ({ project, index, large }: { project: typeof projects[0]; i
           <img
             src={project.image}
             alt={project.title}
-            className="w-full h-full ml-4 md:ml-10 mt-6 object-contain object-left transition-transform duration-300 group-hover:scale-105"
+            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
           />
         </div>
       )}
@@ -88,6 +88,9 @@ const ProjectCard = ({ project, index, large }: { project: typeof projects[0]; i
 };
 
 const ProjectsSection = () => {
+  const withImage = projects.filter((p) => p.showImageInCard !== false && p.image);
+  const withoutImage = projects.filter((p) => p.showImageInCard === false || !p.image);
+
   return (
     <section id="projects" className="py-32 px-6">
       <div className="max-w-5xl mx-auto">
@@ -99,12 +102,19 @@ const ProjectsSection = () => {
           className="mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mb-4">Selected Work</h2>
-          <p className="text-muted-foreground text-lg max-w-lg">A selection of projects I’ve built during my transition from UX/UI designer to full‑stack developer.</p>
+          <p className="text-muted-foreground text-lg max-w-lg">A selection of design and development projects — from UI design systems and product design to full‑stack web applications.</p>
         </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {projects.map((project, i) => (
-            <ProjectCard key={project.title} project={project} index={i} large={project.featured} />
-          ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="flex flex-col gap-4">
+            {withImage.map((project, i) => (
+              <ProjectCard key={project.slug} project={project} index={i} large={project.featured} />
+            ))}
+          </div>
+          <div className="flex flex-col gap-4">
+            {withoutImage.map((project, i) => (
+              <ProjectCard key={project.slug} project={project} index={i} large={false} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

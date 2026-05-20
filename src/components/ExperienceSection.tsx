@@ -2,6 +2,12 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    company: "Stad Hasselt",
+    role: "Consultant Webmaster",
+    period: "Apr 2026 — Aug 2026",
+    description: "Operational management of Drupal 9/10: building, customising and maintaining web forms and websites. Providing 1st, 2nd and 3rd line support for CMS users, including analysis and follow-up of SLA tickets. Monitoring CMS and server updates (OS, PHP, MySQL) and supporting new integrations. Managing user accounts, domain names and external DNS, including administrative follow-up with suppliers.",
+  },
+  {
     company: "VDAB ",
     role: "Full Stack Developer Training",
     period: "Jun 2025 — Mar 2026",

@@ -107,7 +107,7 @@ const ProjectDetail = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-64 md:h-80 object-contain object-center p-6"
+                className="w-full h-64 md:h-80 object-cover"
               />
             </motion.div>
           )}

@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 
 const skills = [
+  { name: "Figma", icon: "devicon-figma-plain" },
+  { name: "Miro", icon: "devicon-miro-plain" },
+  { name: "Jira", icon: "devicon-jira-plain" },
   { name: "HTML", icon: "devicon-html5-plain" },
   { name: "CSS", icon: "devicon-css3-plain" },
   { name: "JavaScript", icon: "devicon-javascript-plain" },
@@ -32,10 +35,10 @@ const About = () => {
         >
           <div className="space-y-4">
             <p className="text-muted-foreground leading-relaxed">
-              I'm a developer with a background in UX/UI design, where I spent several years creating clear, intuitive, and visually refined digital experiences. My growing interest in the technical side of product building led me to pursue a Full Stack Development program, where I expanded my skills across modern web technologies and software architecture.
+              I'm a UX/UI designer with several years of experience creating clear, intuitive, and visually refined digital experiences. From wireframes and design systems to interactive prototypes, I focus on putting the user first in every design decision.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Today, I combine design thinking with solid engineering practices to build user‑focused, maintainable, and well‑structured applications.
+              Along the way, I deepened my knowledge of full‑stack development — giving me a technical perspective that makes collaboration with developers smoother and my designs more grounded in what can actually be built.
             </p>
           </div>
 

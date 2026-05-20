@@ -50,12 +50,12 @@ const HeroSection = () => {
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-foreground leading-[1.1] mb-6">
           I'm Thomas
           <br />
-          <span className="text-primary">Creative</span>
-          <br />
-          Full Stack Developer.
+          <span className="text-primary">UX/UI </span>
+          
+          Designer.
         </h1>
         <p className="text-lg text-muted-foreground max-w-xl leading-relaxed mb-10">
-          Full‑stack developer with a strong background in UX/UI design, combining technical expertise with a user‑first mindset. Experienced in both frontend and backend development, delivering modern, reliable, and thoughtfully crafted web applications.
+          UX/UI designer with a passion for creating clear, intuitive, and visually refined digital experiences. With a background in full‑stack development, I bring a technical understanding that bridges design and implementation.
         </p>
         <div className="flex flex-col md:flex-row justify-start gap-4 items-center">
           <a
