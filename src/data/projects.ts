@@ -64,7 +64,6 @@ export const projects: Project[] = [
   tags: ["React", "TypeScript", "Laravel", "Shadcn", "Tailwind CSS"],
   featured: false,
   showImageInCard:false,
-  url: "https://dartszone-frontend.up.railway.app",
   github: "https://github.com/thomaslaeremans/dartszone",
   image: `${import.meta.env.BASE_URL}images/DartsZone_mockup.png`,
   features: [
@@ -135,7 +134,7 @@ export const projects: Project[] = [
     ],
     url:"https://manage-my-business.be/?lang=nl"
   },
-  {
+  /* {
     slug: "balls-and-glory",
     title: "Balls & Glory Website",
     description: "Full website design for Balls & Glory — from wireframes to high-fidelity UI designs, carried out at designskills.",
@@ -154,7 +153,7 @@ export const projects: Project[] = [
       "Visual translation of the brand personality into a digital experience",
     ],
     url:"https://ballsnglory.be/"
-  },
+  }, */
   {
     slug: "bewire-design-system",
     title: "Bewire – Design System & Apps",
