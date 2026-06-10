@@ -1,11 +1,8 @@
-name: Deploy naar GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [master]
-
-permissions:
-  contents: write
 
 jobs:
   deploy:
@@ -17,7 +14,7 @@ jobs:
           node-version: 20
       - run: npm install
       - run: npm run build
-      - uses: peaceiris/actions-gh-pages@v4
+      - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
