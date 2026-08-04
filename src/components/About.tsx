@@ -35,7 +35,9 @@ const About = () => {
         >
           <div className="space-y-4">
             <p className="text-muted-foreground leading-relaxed">
-              I'm a UX/UI designer with several years of experience creating clear, intuitive, and visually refined digital experiences. From wireframes and design systems to interactive prototypes, I focus on putting the user first in every design decision.
+I'm a Frontend Developer with a background in UX/UI design and several years of experience creating intuitive, responsive, and visually refined digital experiences. I enjoy transforming designs into clean, accessible, and high-performing user interfaces, always with a strong focus on usability and user experience.
+
+My background in UX/UI design gives me a user-centered mindset, while my frontend development skills allow me to build interfaces that are both visually appealing and technically robust. This combination helps me bridge the gap between design and development, making collaboration smoother and ensuring ideas are translated into high-quality digital products.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Along the way, I deepened my knowledge of full‑stack development — giving me a technical perspective that makes collaboration with developers smoother and my designs more grounded in what can actually be built.

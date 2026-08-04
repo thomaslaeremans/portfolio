@@ -50,12 +50,11 @@ const HeroSection = () => {
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-foreground leading-[1.1] mb-6">
           I'm Thomas
           <br />
-          <span className="text-primary">UX/UI </span>
-          
-          Designer.
+          <span className="text-primary">Frontend </span>
+          Developer
         </h1>
         <p className="text-lg text-muted-foreground max-w-xl leading-relaxed mb-10">
-          UX/UI designer with a passion for creating clear, intuitive, and visually refined digital experiences. With a background in full‑stack development, I bring a technical understanding that bridges design and implementation.
+Frontend Developer with a passion for creating seamless digital experiences. Coming from a UX/UI design background, I understand the importance of usability, accessibility, and visual consistency. I enjoy turning thoughtful designs into clean, responsive, and interactive interfaces that provide users with the best possible experience.
         </p>
         <div className="flex flex-col md:flex-row justify-start gap-4 items-center">
           <a
